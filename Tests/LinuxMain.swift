@@ -1,7 +1,7 @@
 import XCTest
 
-import CrossPlatformKitTests
+import CrossPlatformWapperTests
 
 var tests = [XCTestCaseEntry]()
-tests += CrossPlatformKitTests.allTests()
+tests += CrossPlatformWapperTests.allTests()
 XCTMain(tests)

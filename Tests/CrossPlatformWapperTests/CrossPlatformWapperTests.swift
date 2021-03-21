@@ -1,12 +1,12 @@
 import XCTest
-@testable import CrossPlatformKit
+@testable import CrossPlatformWapper
 
-final class CrossPlatformKitTests: XCTestCase {
+final class CrossPlatformWapperTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(CrossPlatformKit().text, "Hello, World!")
+        // XCTAssertEqual(CrossPlatformWapper().text, "Hello, World!")
     }
 
     static var allTests = [
